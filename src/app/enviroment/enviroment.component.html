@@ -1,4 +1,6 @@
 <div class="enviroment-container">
+    <app-pokemon-list *ngIf="this.component === 'PokemonListComponent'"
+    ></app-pokemon-list>
 </div>
 
 <button type="button" (click)="onClickMe()">Click me!</button>
