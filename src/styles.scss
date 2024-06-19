@@ -1,43 +1,13 @@
-h1 {
-    color: #369;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 250%;
-  }
-  h2, h3 {
-    color: #444;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-  }
-  body {
-    margin: 0;
-  }
-  body, input[type="text"], button {
-    color: #333;
-    font-family: Cambria, Georgia, serif;
-  }
-  button {
-    background-color: #eee;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    color: black;
-    font-size: 1.2rem;
-    padding: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-  }
-  button:hover {
-    background-color: black;
-    color: white;
-  }
-  button:disabled {
-    background-color: #eee;
-    color: #aaa;
-    cursor: auto;
-  }
-
-  /* everywhere else */
-  * {
-    font-family: Arial, Helvetica, sans-serif;
-  }
+@import '~normalize.css/normalize';
+@import '~blueprint-css/src/blueprint';
+@import './styles/_config';
+@import './styles/_colors';
+@import './styles/_typography';
+@import './styles/_layout';
+@import './styles/_nav';
+@import './styles/components/_loaders';
+@import './styles/components/_buttons';
+@import './styles/components/_card';
+@import './styles/components/_inputs';
+@import './styles/components/_modal';
+@import './styles/_sprites';
